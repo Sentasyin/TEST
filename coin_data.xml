@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="zh">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>1981年发现的利奥一世金币</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>内蒙古博物院</authority>
+                <idno type="filename">coin_002</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>内蒙古博物院</repository>
+                        <idno>INV12345</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>硬币</objectType>
+                                    <material>金</material>
+                                    <dimensions>
+                                        <diameter>12 mm</diameter>
+                                        <weight>2.3 g</weight>
+                                    </dimensions>
+                                    <inscriptions>拉丁铭文: DNLEO?? RPETAVG  VICTORI AVGGGΛ  CONOB</inscriptions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>RIC X 605形相近，严重剪边，正背角度为180度。3/4正面微向右侧胸像，头戴冠盔，缨带结于脑后，两端朝下卷曲；盔顶饰有羽毛；身着束腰外衣，外罩胸甲；右手持矛，矛头从脑后露出；左手持盾，挡于身侧，位于左肩下方，盾面的图案非常模糊，难以识别。带翼胜利拟人像侧身向左行进，手持一较粗的长柄十字架，胜利拟人像背后的空档处隐约可见一星。</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>拉丁大写体</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>君士坦丁堡</origPlace>
+                            <origDate>公元457-473年</origDate>
+                        </origin>
+                        <provenance type="found">1981年发现于内蒙古呼和浩特附近乌兰不浪乡</provenance>
+                        <provenance type="observed">现位于内蒙古博物院</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="coin_obverse.jpg" n="1" desc="正面"/>
+        <graphic url="coin_reverse.jpg" n="2" desc="背面"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="transcription" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>正面：Dominus Noster Leo?? perpectuus Augustus 反面：Victorius Augustus 中央：Constantinopoli obryzum (正面铭文)
+                </ab>
+            </div>
+            <div type="translation">
+                <p>翻译: 我们的君主利奥?? 永远的奥古斯都  胜利的奥古斯都  君士坦丁堡铸币厂</p>
+            </div>
+            <div type="commentary">
+                <p>出自郭云艳：《罗马-拜占庭帝国嬗变与丝绸之路：以考古发现钱币为中心》，北京：中央编译出版社，2022年，第142-143页。
+                   原被认为是塞奥多西二世时期的金币，郭云艳认为是利奥一世时期的金币。</p>
+            </div>
+            <div type="bibliography">
+                <p>呼和浩特是草原丝路的中转站——毕克旗水磨沟又出土东罗马金币[J].内蒙古金融研究,2003,(S1):180-182.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
